@@ -4,18 +4,20 @@ body {
   text-align: center;
   font-family: "Urbanist", sans-serif;
   font-size: 1.5rem;
+  color: #276678;
 }
 
 h1 {
   margin: 0 auto;
-  width: 30%;
-  /* font-family: "Urbanist", sans-serif; */
   font-size: 5rem;
   font-family: "Permanent Marker", cursive;
+  color: #1687a7;
+  line-height: 2;
 }
 
 h2 {
   font-family: "Urbanist", sans-serif;
+  color: #1687a7;
 }
 h3 {
   font-family: "Urbanist", sans-serif;
@@ -28,6 +30,7 @@ p {
 
 table {
   margin: 100px auto;
+  text-align: left;
 }
 
 div {
@@ -43,11 +46,12 @@ hr {
   width: 5%;
 }
 
+a {
+}
+
 /*selector of classes*/
 .top-container {
   background-color: #d3e0ea;
-  padding-top: 200px;
-  padding-bottom: 30px;
 }
 .middle-container {
   background-color: #f6f5f5;
@@ -119,4 +123,54 @@ hr {
 
 .td-content {
   padding-bottom: 25px;
+}
+
+.footer-link {
+  color: #276678;
+  font-family: "Urbanist", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #f6f5f5;
+}
+
+.btn-contact-me {
+  background: #1687a7;
+  background-image: -webkit-linear-gradient(top, #1687a7, #1687a7);
+  background-image: -moz-linear-gradient(top, #1687a7, #1687a7);
+  background-image: -ms-linear-gradient(top, #1687a7, #1687a7);
+  background-image: -o-linear-gradient(top, #1687a7, #1687a7);
+  background-image: -webkit-gradient(to bottom, #1687a7, #1687a7);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 18px;
+  -webkit-box-shadow: 1px 1px 10px 0 #000000;
+  -moz-box-shadow: 1px 1px 10px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  text-shadow: 1px 1px 10px #000000;
+  border: solid #1687a7 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-contact-me:hover {
+  border: solid #1687a7 1px;
+  background: #1687a7;
+  background-image: -webkit-linear-gradient(top, #1687a7, #1687a7);
+  background-image: -moz-linear-gradient(top, #1687a7, #1687a7);
+  background-image: -ms-linear-gradient(top, #1687a7, #1687a7);
+  background-image: -o-linear-gradient(top, #1687a7, #1687a7);
+  background-image: -webkit-gradient(to bottom, #1687a7, #1687a7);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
