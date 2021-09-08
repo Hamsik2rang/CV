@@ -1,0 +1,122 @@
+/*global selector*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin: 0 auto;
+  width: 30%;
+  /* font-family: "Urbanist", sans-serif; */
+  font-size: 5rem;
+  font-family: "Permanent Marker", cursive;
+}
+
+h2 {
+  font-family: "Urbanist", sans-serif;
+}
+h3 {
+  font-family: "Urbanist", sans-serif;
+}
+
+p {
+  top: 10%;
+  font-size: 1.5rem;
+}
+
+table {
+  margin: 100px auto;
+}
+
+div {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: gray;
+  width: 5%;
+}
+
+/*selector of classes*/
+.top-container {
+  background-color: #d3e0ea;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+.middle-container {
+  background-color: #f6f5f5;
+  padding-top: 100px;
+}
+.bottom-container {
+  background-color: #d3e0ea;
+}
+
+.top-profile-image {
+  background-color: #d3e0ea;
+  padding-top: 50px;
+  width: 30%;
+  height: 30%;
+}
+.face-image {
+  border-radius: 50%;
+}
+.growth-image {
+  width: 30%;
+  height: 30%;
+}
+.career-image {
+  width: 30%;
+  height: 30%;
+}
+
+.skill-c {
+  width: 5.1%;
+  height: 5.1%;
+}
+.skill-image {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0 auto;
+}
+
+.skill-cpp {
+  width: 5%;
+  height: 5%;
+}
+
+.skill-csharp {
+  width: 5.5%;
+  height: 5.5%;
+}
+.skill-python {
+  width: 5%;
+  height: 5%;
+  padding-left: 10px;
+}
+
+.skill-unity {
+  width: 15%;
+}
+.skill-unreal {
+  width: 10%;
+  padding-left: 50px;
+}
+
+.skill-opengl {
+  width: 15%;
+}
+
+.td-year {
+  padding-right: 50px;
+  padding-bottom: 25px;
+}
+
+.td-content {
+  padding-bottom: 25px;
+}
